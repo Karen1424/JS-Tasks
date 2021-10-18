@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+    <Form>
+        <h3> enter your details </h3>
+        <span> <input type="text" id = "name" placeholder="input your name"> </span>
+        <p class="nameValidation" id="nameValidation">The name must start with a capital letter: have at least 3 characters</p>           
+        <span> <input type="text" id = "lastName" placeholder="input your last name"> </span>
+        <p class="lastNameValidation" id= "lastNameValidation">The name must start with a capital letter: have at least 3 characters</p>
+        <span><input type="email" id = "email"placeholder="input your email"></span>
+        <p class="emailValidation" id= "emailValidation">Invalid email</p>
+        <span><input type="password" id = "password" placeholder="input your password"></span>
+        <p class="passwordValidation" id= "passwordValidation">Password must not be composed of 8 characters or contain a stuck letter</p>
+        </Form>
+
+        <button onclick = "register()" >Register</button>
+        <style></style>
+      
+</body>
+
+<script src="./main.js"></script>
+</html>
